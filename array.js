@@ -47,14 +47,25 @@
 // Print a message to the console indicating whether the element is present in the array or not.
 
 
-const Books = [
-  'Marhaba Javascript a Maro Thaba',
-  'The Hundred',
-  'Cholo Bangla Shikhi'
-]
+// const Books = [
+//   'Marhaba Javascript a Maro Thaba',
+//   'The Hundred',
+//   'Cholo Bangla Shikhi'
+// ]
 
-if (Books.includes('JavaScript')){
-  console.log('Yes, These are the JavaScript Books');
-} else{
-  console.log('No, These are Not JavaScript Books');
-}
+// if (Books.includes('JavaScript')){
+//   console.log('Yes, These are the JavaScript Books');
+// } else{
+//   console.log('No, These are Not JavaScript Books');
+// }
+
+
+
+// 4. Checking if it's an Array
+// Instructions:
+
+// Create different variables, each containing either an array or a non-array value.
+
+// Now use isArray to check if each variable is an array.
+
+// Print a message to the console indicating whether each variable is an array or not.
