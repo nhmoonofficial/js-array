@@ -1,7 +1,7 @@
 // js-array-tasks
 
 // js-array-tasks
-// 1. Declare an array
+//** */ 1. Declare an array
 // Declare an array with 5 elements containing fruits
 // console log the 3rd index element
 // change the value of the 2nd index element to jambura
@@ -18,7 +18,7 @@
 // console.log(fruits);
 
 
-// 2. Add or remove elements
+//** */ 2. Add or remove elements
 // Declare an array of 3 tourist destinations
 // Add a new tourist destination to your tourist array
 // Add two more to your array
@@ -26,10 +26,35 @@
 // display the final array as output
 
 
-const tourist = ['Cox', 'Bandarban', 'SaintMartin']
+// const tourist = ['Cox', 'Bandarban', 'SaintMartin']
 
-tourist.push('Sylhet')
-console.log(tourist);
-tourist.push('Mawua','Rajshahi')
-tourist.pop();
-console.log(tourist);
+// tourist.push('Sylhet')
+// console.log(tourist);
+// tourist.push('Mawua','Rajshahi')
+// tourist.pop();
+// console.log(tourist);
+
+
+
+
+//** */ 3. Checking Array Membership with ‘includes’
+// Instructions:
+
+// Create an array of books containing different book.
+
+// Use the includes method to check if the array contains a javascript book.
+
+// Print a message to the console indicating whether the element is present in the array or not.
+
+
+const Books = [
+  'Marhaba Javascript a Maro Thaba',
+  'The Hundred',
+  'Cholo Bangla Shikhi'
+]
+
+if (Books.includes('JavaScript')){
+  console.log('Yes, These are the JavaScript Books');
+} else{
+  console.log('No, These are Not JavaScript Books');
+}
