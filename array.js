@@ -61,7 +61,7 @@
 
 
 
-// 4. Checking if it's an Array
+//** 4. Checking if it's an Array
 // Instructions:
 
 // Create different variables, each containing either an array or a non-array value.
@@ -69,3 +69,14 @@
 // Now use isArray to check if each variable is an array.
 
 // Print a message to the console indicating whether each variable is an array or not.
+
+
+const nums = [1,2,3,4,5];
+const nums2 = ['1', '2', '3'];
+const nums3 = "dhaka, rajshahi, khulna,";
+const nums4 = ['jerry', 'merry'];
+
+console.log(Array.isArray(nums))
+console.log(Array.isArray(nums2))
+console.log(Array.isArray(nums3))
+console.log(Array.isArray(nums4))
