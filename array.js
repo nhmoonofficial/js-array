@@ -71,12 +71,20 @@
 // Print a message to the console indicating whether each variable is an array or not.
 
 
-const nums = [1,2,3,4,5];
-const nums2 = ['1', '2', '3'];
-const nums3 = "dhaka, rajshahi, khulna,";
-const nums4 = ['jerry', 'merry'];
+// const nums = [1,2,3,4,5];
+// const nums2 = ['1', '2', '3'];
+// const nums3 = "dhaka, rajshahi, khulna,";
+// const nums4 = ['jerry', 'merry'];
 
-console.log(Array.isArray(nums))
-console.log(Array.isArray(nums2))
-console.log(Array.isArray(nums3))
-console.log(Array.isArray(nums4))
+// console.log(Array.isArray(nums))
+// console.log(Array.isArray(nums2))
+// console.log(Array.isArray(nums3))
+// console.log(Array.isArray(nums4))
+
+
+// ** 5. Combining Arrays
+// Instructions:
+
+// Create two arrays of your choice.
+// Use the concat method to combine the two arrays into a new array.
+// Print both the original arrays and the combined array using console.log().
